@@ -14,12 +14,12 @@ clock = time.Clock()
 FPS = 60
 
 while game:
-   for e in event.get():
-       if e.type == QUIT:
-           game = False
-  
-   if finish != True:
-       window.fill(back)
- 
-   display.update()
-   clock.tick(FPS)
+    for e in event.get():
+        if e.type == QUIT:
+            game = False
+    
+    if finish != True:
+        window.fill(back)
+    
+    display.update()
+    clock.tick(FPS)
